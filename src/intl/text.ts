@@ -6,20 +6,20 @@ export const textInLanguege = {
     actuations: "Timeline",
     footer: "Produced by",
     presentation: "I'm Flávio",
-    civilpresentation: `A civil engineer specializing on executives projects, 
+    civilpresentation: `A civil engineer specializing in executive projects, 
     quantitative and budget characterization. I also have 
     urban infrastructure experience.`,
-    softwarepresentation: ` Moreover, I am a software developer with building
-    digital experiences' skills, with a high level of usability.`,
-    description: `Born in Alagoas, I always liked new discoveries, 
-    trying to learn with all of them. Then, I created big appreciation to 
-    functional form that engineering knowledge provides harmoniously integration's 
-    buildings on the environment, and how about the technology show to be friendly 
-    many times, and becomes accessible the communication and knowledge from anywhere.`,
+    softwarepresentation: ` Moreover, I am a software developer and digital 
+    experiences expert, with a high level of usability.`,
+    description: `Born in Alagoas, I always liked new experiences and me 
+    tried to learn with all of them. Then, I created a lot of liking about
+    engineering's knowledge provides integration of buildings with agreement on the environment, 
+    and how about the technology show to be friendly 
+    many times and becomes accessible the communication and knowledge from anywhere.`,
     descriptionmusic:
-      "I like to discover a lot new musics from all genres. So, music always matchs with everything!",
+      "I like to discover a lot of new music from all genres. So, music always matches with everything!",
     descriptiontrip:
-      "Did you talk about travels? I'm game! Usually, this is my favorite hobby, together with the practice of some sports.",
+      "Did you talk about travel? I'm game! Usually, this is my favorite hobby, together with the practice of some sports.",
 
     timeline: [
       {
@@ -72,7 +72,7 @@ export const textInLanguege = {
       },
       {
         title: "Outsourcing's Coordinator",
-        description: ` Team management, material's acquisition and consumption |
+        description: ` Team management, material's acquisition, and consumption |
         Measure and budget's services |
         Monitoring the execution of jobs |
         Quality management training`,
