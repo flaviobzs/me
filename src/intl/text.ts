@@ -11,7 +11,7 @@ export const textInLanguege = {
     urban infrastructure experience.`,
     softwarepresentation: ` Moreover, I am a software developer and digital 
     experiences expert, with a high level of usability.`,
-    description: `Born in Alagoas, I always liked new experiences and me 
+    description: `Born in Alagoas, I always liked new experiences and I 
     tried to learn with all of them. Then, I created a lot of liking about
     engineering's knowledge provides integration of buildings with agreement on the environment, 
     and how about the technology show to be friendly 
