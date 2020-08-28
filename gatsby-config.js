@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `FlávioBS`,
-    description: ``,
-    author: `Flávio B Santos`,
+    description: `Engenheiro de software e civil, projetos, desenvolvimento web, desenvolvimento mobile`,
+    siteUrl: `https://www.flaviobs.com.br`,
+    author: `Flávio Santos`,
+    logo: `/images/logo.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,12 +44,14 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#E2142F`,
+        theme_color: `#E2142F`,
         display: `minimal-ui`,
         icon: `src/images/logoblack.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-transition-link`,
     {
@@ -57,14 +61,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
-          `Roboto`,
-          `Monoton`,
-          `Montserrat`,
-          `Poppins`,
-          // you can also specify font weights and styles
+          { family: `Roboto`, variable: true, weights: ["100..900"] },
+          { family: `Poppins`, variable: true, weights: ["100..900"] },
         ],
         display: "swap",
       },

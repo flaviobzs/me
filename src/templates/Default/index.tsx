@@ -24,7 +24,6 @@ const Template: React.FC<TemplateProps> = ({ children }) => {
         <Navigation />
         <Selector />
         <Content>{children}</Content>
-
         <Footer />
       </Container>
     </AppProvider>

@@ -8,20 +8,22 @@ const Timeline: React.FC = () => {
   const datas = t("timeline")
 
   return (
-    <Line>
-      {datas.map(data => {
-        return (
-          <LineElement
-            date={data.date}
-            icon={data.type === "work" ? <WorkIcon /> : <EducationIcon />}
-            coloritens={data.type}
-          >
-            <h4>{data.title}</h4>
-            <p>{data.description}</p>
-          </LineElement>
-        )
-      })}
-    </Line>
+    <Container>
+      <Line>
+        {datas.map(data => {
+          return (
+            <LineElement
+              date={data.date}
+              icon={data.type === "work" ? <WorkIcon /> : <EducationIcon />}
+              coloritens={data.type}
+            >
+              <h4>{data.title}</h4>
+              <p>{data.description}</p>
+            </LineElement>
+          )
+        })}
+      </Line>
+    </Container>
   )
 }
 

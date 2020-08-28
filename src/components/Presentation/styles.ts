@@ -28,9 +28,10 @@ export const Description = styled.div`
   }
 
   p {
+    font-family: "Poppins";
     margin-bottom: 10px;
-    font-size: 1.2rem;
-    /* font-weight: 100 !important; */
+    font-size: 1.1rem;
+    font-weight: 100;
   }
 
   @media (max-width: 800px) {

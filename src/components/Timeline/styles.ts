@@ -8,10 +8,16 @@ import "react-vertical-timeline-component/style.min.css"
 import { Education } from "styled-icons/zondicons"
 import { Suitcase } from "styled-icons/entypo"
 
-export const Container = styled.div``
+export const Container = styled.div`
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px 0 50px;
+`
 
 export const Line = styled(VerticalTimeline)`
-  padding: 30px 40px;
+  padding: 30px 30px;
 `
 export const LineElement = styled(VerticalTimelineElement)`
   > span {

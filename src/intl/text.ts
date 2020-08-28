@@ -11,11 +11,11 @@ export const textInLanguege = {
     urban infrastructure experience.`,
     softwarepresentation: ` Moreover, I am a software developer and digital 
     experiences expert, with a high level of usability.`,
-    description: `Born in Alagoas, I always liked new experiences and I 
-    tried to learn with all of them. Then, I created a lot of liking about
-    engineering's knowledge provides integration of buildings with agreement on the environment, 
-    and how about the technology show to be friendly 
-    many times and becomes accessible the communication and knowledge from anywhere.`,
+    description: `I was born and raised in Brazil, in a small city in Alagoas. 
+    I’ve always been curious and excited for knowledge, taking advantage of 
+    what I could learn. I’ve grown with an appreciation for both Civil 
+    engineering and Software Development because of the harmony and 
+    possibilities that both would provide around the world we live in nowadays.`,
     descriptionmusic:
       "I like to discover a lot of new music from all genres. So, music always matches with everything!",
     descriptiontrip:
@@ -105,7 +105,7 @@ export const textInLanguege = {
       engenharia proporcionam para construções sejam integradas harmonicamente 
       ao ambiente de instalação, e também por como a tecnologia se mostra 
       facilitadora em diversas ações, além de tornar acessível a comunicação 
-      e conhecimentos de qualquer lugar.`,
+      e conhecimentos de qualquer lugar do mundo.`,
     descriptionmusic: `Sou fascinado em descobrir novas músicas de todos os gêneros. Afinal, 
       música sempre combina com tudo!`,
     descriptiontrip: `Falou em viagens? estou dentro! Geralmente esse é meu passatempo favorito 
