@@ -18,28 +18,30 @@ const PostList: React.FC = (props: any) => {
   const nextPage = `/posts/page/${currentPage + 1}`
 
   return (
-    <Template>
-      <Container>
-        {postList.map(post => (
-          <Link to={`/posts${post.node.fields.slug}`}>
-            <PostItem
-              date={post.node.frontmatter.date}
-              title={post.node.frontmatter.title}
-              description={post.node.frontmatter.description}
-              language={post.node.frontmatter.language}
-            />
-          </Link>
-        ))}
-      </Container>
-      <Pagination
-        isFirst={isFirst}
-        isLast={isLast}
-        currentPage={currentPage}
-        numPages={numPages}
-        prevPage={prevPage}
-        nextPage={nextPage}
-      />
-    </Template>
+    // <Template>
+    //   <Container>
+    <>
+      {postList.map(post => (
+        <Link to={`/posts${post.node.fields.slug}`}>
+          <PostItem
+            date={post.node.frontmatter.date}
+            title={post.node.frontmatter.title}
+            description={post.node.frontmatter.description}
+            language={post.node.frontmatter.language}
+          />
+        </Link>
+      ))}
+    </>
+    //   </Container>
+    //   <Pagination
+    //     isFirst={isFirst}
+    //     isLast={isLast}
+    //     currentPage={currentPage}
+    //     numPages={numPages}
+    //     prevPage={prevPage}
+    //     nextPage={nextPage}
+    //   />
+    // </Template>
   )
 }
 

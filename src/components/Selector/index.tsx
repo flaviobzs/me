@@ -11,19 +11,15 @@ import eua from "../../images/eua.png"
 const Selector: React.FC = () => {
   const [flag, setFlag] = useState(brasil)
 
-  const { theme, changeTheme } = useTheme()
+  const { theme, toggleTheme } = useTheme()
   const { setLocale } = useLanguege()
-
-  const handleClick = useCallback(() => {
-    changeTheme()
-  })
 
   return (
     <Container>
-      {theme.title === "dark" ? (
-        <SunIcon onClick={handleClick} />
+      {theme === "dark" ? (
+        <SunIcon onClick={toggleTheme} />
       ) : (
-        <MoonIcon onClick={handleClick} />
+        <MoonIcon onClick={toggleTheme} />
       )}
       <img
         src={flag}

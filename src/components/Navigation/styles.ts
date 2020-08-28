@@ -10,7 +10,7 @@ export const Container = styled.nav<NavigationProps>`
   align-items: center;
   justify-content: space-between;
   height: 75px;
-  background-color: ${props => props.theme.colors.background};
+  background-color: ${props => props.theme.background};
   padding: 0 30px;
   position: fixed;
   width: 100%;
@@ -27,7 +27,7 @@ export const Container = styled.nav<NavigationProps>`
     cursor: pointer;
 
     span {
-      background-color: ${props => props.theme.colors.text} !important;
+      background-color: ${props => props.theme.text} !important;
     }
   }
 
@@ -43,7 +43,7 @@ export const Container = styled.nav<NavigationProps>`
     justify-content: center;
     left: 0px;
     top: 0px;
-    background-color: ${props => props.theme.colors.background};
+    background-color: ${props => props.theme.background};
     display: ${props => (props.isChecked ? "flex" : "none")};
 
     &:hover {
@@ -161,7 +161,7 @@ const iconCSS = css`
   margin: 30px 10px;
 
   &:hover {
-    fill: ${props => props.theme.colors.text};
+    fill: ${props => props.theme.text};
   }
 `
 

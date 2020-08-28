@@ -58,9 +58,9 @@ export const Post = styled.div`
     line-height: 34px;
     letter-spacing: 0.26px;
     text-align: justify;
-    a {
+    /* a {
       color: ${props => props.theme.colors.detail};
-    }
+    } */
   }
   strong {
     font-weight: bold;
@@ -77,14 +77,14 @@ export const Post = styled.div`
       padding-bottom: 10px;
       line-height: 34px;
       letter-spacing: 0.26px;
-      a {
+      /* a {
         color: ${props => props.theme.colors.detail};
-      }
+      } */
     }
   }
   blockquote {
     font-style: italic;
-    border-left: ${props => props.theme.colors.detail} solid 3px;
+    /* border-left: ${props => props.theme.colors.detail} solid 3px; */
     padding-left: 10px;
 
     margin: 20px 0;

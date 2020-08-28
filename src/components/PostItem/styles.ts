@@ -3,9 +3,9 @@ import styled from "styled-components"
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background-color: ${props => props.theme.colors.text};
+  background-color: ${props => props.theme.text};
   min-width: 100%;
-  color: ${props => props.theme.colors.background};
+  color: ${props => props.theme.background};
   border-radius: 10px;
   padding: 10px;
 

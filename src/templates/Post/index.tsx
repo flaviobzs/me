@@ -14,17 +14,19 @@ const Posts: React.FC<PropsPost> = ({ data }: PropsPost) => {
   const post = data.markdownRemark
 
   return (
-    <Template>
-      <Parallax url={post.frontmatter.title}>
-        <Avatar url={text} />
-      </Parallax>
-      <WrapperPost>
-        <h2>{post.frontmatter.date}</h2>
-        <h1>{post.frontmatter.title}</h1>
+    // <Template>
+    //   <Parallax url={post.frontmatter.title}>
+    //     <Avatar url={text} />
+    //   </Parallax>
+    //   <WrapperPost>
+    <>
+      <h2>{post.frontmatter.date}</h2>
+      <h1>{post.frontmatter.title}</h1>
 
-        <Post dangerouslySetInnerHTML={{ __html: post.html }} />
-      </WrapperPost>
-    </Template>
+      <Post dangerouslySetInnerHTML={{ __html: post.html }} />
+    </>
+    //   </WrapperPost>
+    // </Template>
   )
 }
 

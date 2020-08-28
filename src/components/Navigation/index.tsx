@@ -16,12 +16,10 @@ const Navigation: React.FC = () => {
   const { t } = useLanguege()
   const { theme } = useTheme()
 
-  console.log(window.location.pathname)
-
   return (
     <Container isChecked={checked}>
       <Link to="/">
-        <img src={theme.title === "dark" ? logoblack : logowhite} />
+        <img src={theme === "dark" ? logoblack : logowhite} />
       </Link>
 
       <HamburgerMenu

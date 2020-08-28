@@ -22,19 +22,15 @@ export const Line = styled(VerticalTimeline)`
 export const LineElement = styled(VerticalTimelineElement)`
   > span {
     background: ${props =>
-      props.coloritens === "work"
-        ? props.theme.colors.detail
-        : props.theme.colors.detail3};
-    color: ${props => props.theme.colors.text};
+      props.coloritens === "work" ? props.theme.detail : props.theme.detail3};
+    color: ${props => props.theme.text};
   }
   > div {
     padding: 10px !important;
     color: black;
     border-top: 3px solid
       ${props =>
-        props.coloritens === "work"
-          ? props.theme.colors.detail
-          : props.theme.colors.detail3};
+        props.coloritens === "work" ? props.theme.detail : props.theme.detail3};
 
     p {
       font-size: 12px;

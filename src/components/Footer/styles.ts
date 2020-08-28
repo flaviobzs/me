@@ -15,7 +15,7 @@ export const Container = styled.footer`
   align-items: center;
   width: 100%;
   padding: 5px 0px;
-  background-color: ${props => props.theme.colors.background};
+  background-color: ${props => props.theme.background};
 
   > div {
     display: flex;
@@ -44,7 +44,7 @@ export const BoxIcon = styled.a`
   height: 40px;
   margin: 7px;
   border-radius: 30%;
-  box-shadow: 0 5px 7px -5px ${props => props.theme.colors.text};
+  box-shadow: 0 5px 7px -5px ${props => props.theme.text};
   overflow: hidden;
   position: relative;
 
@@ -81,7 +81,7 @@ export const BoxIcon = styled.a`
     position: absolute;
     width: 120%;
     height: 120%;
-    background: ${props => props.theme.colors.detail};
+    background: ${props => props.theme.detail};
     transform: rotate(45deg);
     left: -110%;
     top: 90%;
@@ -92,7 +92,7 @@ const iconCSS = css`
   width: 25px;
   height: 25px;
   cursor: pointer;
-  fill: ${props => props.theme.colors.text};
+  fill: ${props => props.theme.text};
 
   &:hover {
     fill: white;

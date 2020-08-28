@@ -1,9 +1,6 @@
 import styled, { css } from "styled-components"
 import { LocalFireDepartment } from "@styled-icons/material-twotone"
 
-let ttt =
-  "https://rockcontent.com/wp-content/uploads/2020/02/teste-de-lideran%C3%A7a.png"
-
 interface ContainerProps {
   isActive: boolean
   url: String
@@ -19,7 +16,7 @@ export const Container = styled.div<ContainerProps>`
   cursor: pointer;
   border-radius: 30px;
   z-index: 3;
-  border: ${props => props.theme.colors.text} 3px solid;
+  border: ${props => props.theme.text} 3px solid;
 
   ${props =>
     !props.isActive

@@ -7,8 +7,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: ${props => props.theme.colors.secundary};
-  color: ${props => props.theme.colors.text};
+  background-color: ${props => props.theme.secundary};
+  color: ${props => props.theme.text};
 `
 export const Content = styled.div`
   margin-top: 60px;

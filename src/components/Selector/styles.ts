@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: ${props => props.theme.colors.text};
+  background-color: ${props => props.theme.text};
   position: fixed;
   left: 0;
   top: 50%;
@@ -28,7 +28,7 @@ const iconCSS = css`
   flex-shrink: 0;
   width: 20px;
   height: 20px;
-  color: ${props => props.theme.colors.background};
+  color: ${props => props.theme.background};
   cursor: pointer;
 `
 
