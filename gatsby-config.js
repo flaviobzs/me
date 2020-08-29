@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `FlávioBS`,
-    description: `Engenheiro de software e civil, projetos, desenvolvimento web, desenvolvimento mobile`,
+    description: `Engenheiro de software e civil`,
     siteUrl: `https://www.flaviobs.com.br`,
     author: `Flávio Santos`,
-    logo: `/images/logo.png`,
+    logo: `/images/logoblack.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

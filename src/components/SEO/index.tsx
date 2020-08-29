@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import logo from "../../images/logoblack.png"
 
 interface SEOProps {
   description?: string
@@ -48,6 +49,14 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta = [], title }) => {
           content: metaDescription,
         },
         {
+          name: "keywords",
+          content: "Flávio",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width,initial-scale=1",
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -60,8 +69,12 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta = [], title }) => {
           content: `website`,
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:site",
+          content: site.siteMetadata.author,
         },
         {
           name: `twitter:creator`,
@@ -74,6 +87,18 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta = [], title }) => {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: "og:url",
+          content: site.siteMetadata.siteUrl,
+        },
+        {
+          name: "og:image",
+          content: site.siteMetadata.logo,
+        },
+        {
+          name: "og:site_name",
+          content: "flaviobs.com.br",
         },
       ].concat(meta)}
     >
