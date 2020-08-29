@@ -14,7 +14,7 @@ export const Container = styled.div`
   padding: 10px 5px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  gap: 10px;
+  gap: 20px;
   z-index: 10;
 
   img {
