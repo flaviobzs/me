@@ -95,7 +95,7 @@ export const textInLanguege = {
     footer: "Produzido por",
     resume: "CURRICULO",
     presentation: "Eu sou Flávio",
-    civilpresentation: `Além disso, sou engenheiro de civil expecializado em projetos 
+    civilpresentation: `Além disso, sou engenheiro civil expecializado em projetos 
     executivos básicos, incluso caracterização de quantitativos com orçamento.`,
     softwarepresentation: `Um desenvolvedor de softwares Full-Stack, com facilidade 
     em rápida aprendizagem e sempre animado por conhecimento, qualidade e soluções elegantes para qualquer problema.`,

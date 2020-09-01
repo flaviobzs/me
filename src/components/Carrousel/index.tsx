@@ -6,29 +6,41 @@ import { Container, Wrapper } from "./styles"
 
 const images = [
   {
-    url: require("../../images/one.png"),
-    title: "Natal-RN",
-  },
-  {
     url: require("../../images/two.png"),
-    title: "Pipa-RN",
+    title: "Pipa",
   },
   {
     url: require("../../images/three.png"),
-    title: "Cajueiro-AL",
-  },  
+    title: "Cajueiro",
+  },
   {
-    url: require("../../images/seven.png"),
+    url: require("../../images/ooo1.jpeg"),
     title: "Home",
   },
   {
-    url: require("../../images/six.png"),
-    title: "Maceió-AL",
+    url: require("../../images/oooo12.jpeg"),
+    title: "California",
   },
+  {
+    url: require("../../images/oooo2.jpeg"),
+    title: "Campina",
+  },
+  {
+    url: require("../../images/ooo.jpeg"),
+    title: "Dunas",
+  },
+  // {
+  //   url: require("../../images/six.png"),
+  //   title: "Maceió-AL",
+  // },
+  // {
+  //   url: require("../../images/one.png"),
+  //   title: "Natal-RN",
+  // },
 ]
 
 const Carrousel: React.FC = () => {
-  const [isActive, setIsActive] = useState("Atalaia-AL")
+  const [isActive, setIsActive] = useState("Home")
 
   return (
     <Container>

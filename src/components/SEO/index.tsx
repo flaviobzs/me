@@ -1,7 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import logo from "../../images/logoblack.png"
 
 interface SEOProps {
   description?: string
@@ -21,7 +20,7 @@ interface MetaWithName {
 }
 
 const SEO: React.FC<SEOProps> = ({ description, lang, meta = [], title }) => {
-  const { site } = useStaticQuery(
+  const { site, file } = useStaticQuery(
     graphql`
       query {
         site {
@@ -33,11 +32,15 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta = [], title }) => {
             siteUrl
           }
         }
+        file(relativePath: { eq: "logo.png" }) {
+          publicURL
+        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const logo = file.publicURL
 
   return (
     <Helmet
@@ -98,11 +101,11 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta = [], title }) => {
         },
         {
           name: "og:image",
-          content: logo,
+          content: `${site.siteMetadata.siteUrl}${logo}/static/logo-90b6227ecb61600c0f9bc643e1c2590b.png`,
         },
         {
           name: "twitter:image:src",
-          content: logo,
+          content: `${site.siteMetadata.siteUrl}/static/logo-90b6227ecb61600c0f9bc643e1c2590b.png`,
         },
       ].concat(meta)}
     >
