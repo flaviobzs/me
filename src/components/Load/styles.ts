@@ -5,7 +5,7 @@ import styled from "styled-components"
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  background: black;
+  background: ${props => props.theme.background};
 
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ export const Container = styled.div`
       .block {
         width: 0%;
         height: inherit;
-        background: #E2142F;
+        background: ${props => props.theme.detail};
         position: absolute;
         animation: mainBlock 1s cubic-bezier(.74, .06, .4, .92) forwards;
         display: flex;
@@ -37,7 +37,7 @@ export const Container = styled.div`
 
       h1 {
         /* font-family: 'Poppins'; */
-        color: #fff;
+        color: ${props => props.theme.text};
         font-size: 32px;
         -webkit-animation: mainFadeIn 1s forwards;
         -o-animation: mainFadeIn 1s forwards;
@@ -55,7 +55,7 @@ export const Container = styled.div`
           -moz-border-radius: 50%;
           border-radius: 50%;
 
-          background: #ffb510;
+          background:  ${props => props.theme.detail3};
           -webkit-animation: load 0.6s cubic-bezier(.74, .06, .4, .92) forwards;
           animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
           animation-delay: 2s;
@@ -80,7 +80,7 @@ export const Container = styled.div`
       .block {
         width: 0%;
         height: inherit;
-        background: #E7E7E7;
+        background:  ${props => props.theme.text};
         position: absolute;
         animation: secBlock 1.0s cubic-bezier(.74, .06, .4, .92) forwards;
         animation-delay: 1s;
@@ -92,8 +92,7 @@ export const Container = styled.div`
         animation-delay: 1.2s;
         opacity: 0;
         font-weight: 400;
-        font-family: 'Lato';
-        color: #ffffff;
+        color:  ${props => props.theme.text};
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 5px;

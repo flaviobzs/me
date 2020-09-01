@@ -19,9 +19,11 @@ const Presentation: React.FC = () => {
         <p>{t("softwarepresentation")}</p>
         <p>{t("civilpresentation")}</p>
         {/* assinatura!!! */}
-        <a href={locale === "en" ? resume : curriculo} target="_blank">
-          {t("resume")}
-        </a>
+        <div>
+          <a href={locale === "en" ? resume : curriculo} target="_blank">
+            {t("resume")}
+          </a>
+        </div>
       </Description>
       <Avatar backgroundUrl={img} imageStatus={onImage}>
         <div
@@ -32,6 +34,7 @@ const Presentation: React.FC = () => {
             setOnImage(false)
           }}
         ></div>
+        <img src={img}></img>
         <h1>Flávio B Santos</h1>
       </Avatar>
     </Container>

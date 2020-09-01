@@ -38,15 +38,24 @@ export const Description = styled.div`
     font-weight: 100;
   }
 
-  a {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px;
-    border: ${props => props.theme.detail} 3px solid;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 1rem;
-    color: ${props => props.theme.text};
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px;
+      border: ${props => props.theme.detail} 3px solid;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 1rem;
+      color: ${props => props.theme.text};
+      align-self: center;
+      justify-items: center;
+      justify-self: center;
+    }
   }
 
   @media (max-width: 800px) {
@@ -61,12 +70,7 @@ export const Avatar = styled.div<AvatarProps>`
   align-items: center;
   justify-content: center;
   flex: 1;
-  /* width: 60%; */
   position: relative;
-
-/* 
-  background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4)),
-    url(${props => `${props.backgroundUrl}`}); */
 
   h1 {
     position: absolute;
@@ -74,66 +78,55 @@ export const Avatar = styled.div<AvatarProps>`
     bottom: 30%;
     color: white;
     display: ${props => (props.imageStatus ? "block" : "none")};
-    
+    z-index: 4;
   }
 
-  div {
+  img {
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
-    margin: 10px 0 15px 0;
     width: 100%;
-    height: 30em;
-    background-image: url(${props => `${props.backgroundUrl}`});
-    background-size: cover;
-    background-position: center;
-    filter: brightness(30%);
-    transition: 0.6s;
+    transition: all 1s;
 
-    ${props =>
-      props.imageStatus
-        ? css`
-            background-image: linear-gradient(
-                rgba(113, 94, 245, 0.7),
-                rgba(71, 47, 207, 0.6)
-              ),
-              url(${props => `${props.backgroundUrl}`});
+    filter: opacity(60%);
+  }
 
-            filter: brightness(100%);
-          `
-        : css`
-            background-image: url(${props => `${props.backgroundUrl}`});
-          `};   
+  div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    opacity: ${props => (props.imageStatus ? ".7" : "0")};
+    z-index: 3;
+    background-color: ${props => props.theme.detail};
+    transition: all 1s;
   }
 
   &:hover {
     img {
-      /* max-width: 600px;
-        max-height: 600px; */
-      /* transform: scale(1.3);
+      transform: scale(1.3);
       transform: rotateZ(-5deg);
-      filter: brightness(10%); */
+      filter: contrast(120%);
     }
 
-    h1 {
-      /* display: block; */
+    div {
+      transform: scale(1.3);
+      transform: rotateZ(-5deg);
     }
   }
 
   @media (max-width: 800px) {
-    /* padding: 20px; */
-    width: 100%;
+    margin-top: 30px;
 
-    div{
-    height: 15em;
-    background-image: linear-gradient(
-                rgba(113, 94, 245, 0.7),
-                rgba(71, 47, 207, 0.6)
-              ),
-              url(${props => `${props.backgroundUrl}`});
-    filter: brightness(100%);
-
+    div {
+      opacity: 0.6;
+      transform: rotateZ(-5deg);
     }
-  
+
+    img {
+      transform: rotateZ(-5deg);
+    }
   }
 `

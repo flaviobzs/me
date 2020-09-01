@@ -10,7 +10,6 @@ import eua from "../../images/eua.png"
 
 const Selector: React.FC = () => {
   const { setLocale, locale } = useLanguege()
-  const [flag, setFlag] = useState(locale === "pt" ? eua : brasil)
 
   const { theme, toggleTheme } = useTheme()
 
@@ -22,15 +21,9 @@ const Selector: React.FC = () => {
         <MoonIcon onClick={toggleTheme} />
       )}
       <img
-        src={flag}
+        src={locale === "pt" ? eua : brasil}
         onClick={() => {
-          if (flag === brasil) {
-            setLocale("en")
-            setFlag(eua)
-          } else {
-            setFlag(brasil)
-            setLocale("pt")
-          }
+          locale === "pt" ? setLocale("en") : setLocale("pt")
         }}
       ></img>
     </Container>
