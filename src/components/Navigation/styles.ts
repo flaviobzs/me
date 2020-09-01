@@ -160,16 +160,20 @@ const iconCSS = css`
   cursor: pointer;
   margin: 30px 10px;
 
-  &:hover {
-    fill: ${props => props.theme.text};
-  }
+  fill: ${props => props.theme.text};
 `
 
 export const WhatsappIcon = styled(Whatsapp)`
   ${iconCSS}
-  fill: #34af23;
+
+  &:hover {
+    fill: #34af23;
+  }
 `
 export const TelegramIcon = styled(Telegram)`
   ${iconCSS}
-  fill: #00bcf2;
+
+  &:hover {
+    fill: #00bcf2;
+  }
 `

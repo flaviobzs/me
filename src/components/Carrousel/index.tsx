@@ -16,11 +16,7 @@ const images = [
   {
     url: require("../../images/three.png"),
     title: "Cajueiro-AL",
-  },
-  {
-    url: require("../../images/fuor.png"),
-    title: "Atalaia-AL",
-  },
+  },  
   {
     url: require("../../images/seven.png"),
     title: "Home",

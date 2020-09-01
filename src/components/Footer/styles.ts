@@ -6,6 +6,7 @@ import {
   Twitter,
   Linkedin,
   Instagram,
+  Google,
 } from "@styled-icons/boxicons-logos"
 
 export const Container = styled.footer`
@@ -112,5 +113,8 @@ export const LinkedinIcon = styled(Linkedin)`
   ${iconCSS}
 `
 export const InstagramIcon = styled(Instagram)`
+  ${iconCSS}
+`
+export const GoogleIcon = styled(Google)`
   ${iconCSS}
 `

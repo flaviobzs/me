@@ -18,7 +18,7 @@ const Load: React.FC = () => {
 
         <div className="role">
           <div className="block"></div>
-          <p>Engenheiro Civil/Software</p>
+          <p>Engenheiro de Software/Civil</p>
         </div>
       </div>
     </Container>

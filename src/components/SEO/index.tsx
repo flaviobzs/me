@@ -93,13 +93,16 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta = [], title }) => {
           content: site.siteMetadata.siteUrl,
         },
         {
-          name: "og:image",
-          content:
-            "https://loving-einstein-604538.netlify.app/static/logowhite-2ac75ec8b9f347c856383ca2e16a0ac9.png",
-        },
-        {
           name: "og:site_name",
           content: "flaviobs.com.br",
+        },
+        {
+          name: "og:image",
+          content: logo,
+        },
+        {
+          name: "twitter:image:src",
+          content: logo,
         },
       ].concat(meta)}
     >

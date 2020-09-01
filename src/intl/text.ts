@@ -5,12 +5,12 @@ export const textInLanguege = {
     posts: "Posts",
     actuations: "Timeline",
     footer: "Produced by",
+    resume: "RESUME",
     presentation: "I'm Flávio",
-    civilpresentation: `A civil engineer specializing in executive projects, 
-    quantitative and budget characterization. I also have 
-    urban infrastructure experience.`,
-    softwarepresentation: ` Moreover, I am a software developer and digital 
-    experiences expert, with a high level of usability.`,
+    civilpresentation: `Moreover, I'm a civil engineer specializing in executive projects, 
+    quantitative and budget characterization.`,
+    softwarepresentation: ` A Full-Stack software developer, 
+    a fast learner and always excited for knowledge, quality and elegant solutions for any problem.`,
     description: `I was born and raised in Brazil, in a small city in Alagoas. 
     I’ve always been curious and excited for knowledge, taking advantage of 
     what I could learn. I’ve grown with an appreciation for both Civil 
@@ -23,14 +23,14 @@ export const textInLanguege = {
 
     timeline: [
       {
-        title: "Fullstack Software Develope Frelancer",
+        title: "Fullstack Software Developer Frelancer",
         description:
           " NodeJS | Typescript | ReactJS | Laravel | Docker | React Native | NestJS | Gatsby",
         date: "2019 - now",
         type: "work",
       },
       {
-        title: "Fullstack Software Develope",
+        title: "Fullstack Software Developer",
         description: " Laravel | Vanilla Javascript | Django | Data modeling ",
         date: "2019 - 2020",
         type: "work",
@@ -93,19 +93,19 @@ export const textInLanguege = {
     posts: "Posts",
     actuations: "Atuações",
     footer: "Produzido por",
+    resume: "CURRICULO",
     presentation: "Eu sou Flávio",
-    civilpresentation: `Um engenheiro de civil expecializado em projetos 
-    executivos básicos, incluso caracterização de quantitativos com orçamento, 
-    e também com experiencia em infraestrutura urbana.`,
-    softwarepresentation: `Além disso, sou desenvolvedor de softwares com habilidades na construção 
-      de experiencias digitais, com grande nivel de usabilidade.`,
+    civilpresentation: `Além disso, sou engenheiro de civil expecializado em projetos 
+    executivos básicos, incluso caracterização de quantitativos com orçamento.`,
+    softwarepresentation: `Um desenvolvedor de softwares Full-Stack, com facilidade 
+    em rápida aprendizagem e sempre animado por conhecimento, qualidade e soluções elegantes para qualquer problema.`,
     description: `Nascido em uma cidade no interior de Alagoas, sempre fui curioso por 
       novas descobertas, me dedicando em todas que vivenciei. A partir disso, 
-      criei enorme apreço pela forma funcional que os conhecimentos em 
-      engenharia proporcionam para construções sejam integradas harmonicamente 
-      ao ambiente de instalação, e também por como a tecnologia se mostra 
+      criei enorme apreço pela forma como a tecnologia se mostra 
       facilitadora em diversas ações, além de tornar acessível a comunicação 
-      e conhecimentos de qualquer lugar do mundo.`,
+      e conhecimentos de qualquer lugar do mundo. Também pela forma funcional que os conhecimentos em 
+      engenharia proporcionam para construções sejam integradas harmonicamente 
+      ao ambiente de instalação.`,
     descriptionmusic: `Sou fascinado em descobrir novas músicas de todos os gêneros. Afinal, 
       música sempre combina com tudo!`,
     descriptiontrip: `Falou em viagens? estou dentro! Geralmente esse é meu passatempo favorito 

@@ -34,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `FlávioBS`,
+        short_name: `FlávioBS`,
         start_url: `/`,
         background_color: `#E2142F`,
         theme_color: `#E2142F`,

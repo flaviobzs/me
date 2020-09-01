@@ -9,10 +9,10 @@ import brasil from "../../images/brasil.png"
 import eua from "../../images/eua.png"
 
 const Selector: React.FC = () => {
-  const [flag, setFlag] = useState(brasil)
+  const { setLocale, locale } = useLanguege()
+  const [flag, setFlag] = useState(locale === "pt" ? eua : brasil)
 
   const { theme, toggleTheme } = useTheme()
-  const { setLocale } = useLanguege()
 
   return (
     <Container>
@@ -25,8 +25,8 @@ const Selector: React.FC = () => {
         src={flag}
         onClick={() => {
           if (flag === brasil) {
-            setFlag(eua)
             setLocale("en")
+            setFlag(eua)
           } else {
             setFlag(brasil)
             setLocale("pt")
