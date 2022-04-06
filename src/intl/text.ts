@@ -23,22 +23,49 @@ export const textInLanguege = {
 
     timeline: [
       {
-        title: "Fullstack Software Developer Frelancer",
+        title: "Software Engineering",
         description:
-          " NodeJS | Typescript | ReactJS | Laravel | Docker | React Native | NestJS | Gatsby",
+          ` Developing and maintenance of applications in: ReactJS, Next.JS e 
+          Ruby on Rails | Modeling database (PostgreSQL) |
+          Developing using containers | Ory Kratos - Identity and User Management |
+          Ory Hydra - OAuth 2.0 e OpenID Provider | Ory Oathkeeper - Reverse Proxy `,
+        date: "2021 - atual",
+        type: "work",
+      },
+      {
+        title: "Software Engineering",
+        description: "in Faculdade Única",
+        date: "2021 - 2022",
+        type: "education",
+      },
+      {
+        title: "Software Engineering",
+        description:
+          ` Developing and maintenance of applications in: NestJS e ReactJS |
+          Modeling database (PostgreSQL) | 
+          Developing using containers`,
+        date: "2020 - 2020",
+        type: "work",
+      },
+      {
+        title: "Software Engineering",
+        description:
+          ` Developing and maintenance of applications in: NodeJS, Typescript, NestJS,
+          ReactJS, Next.JS e Gatsby | Modeling relational database `,
         date: "2019 - now",
         type: "work",
       },
       {
         title: "Fullstack Software Developer",
-        description: " Laravel | Vanilla Javascript | Django | Data modeling ",
+        description: ` Developing and maintenance of applications in: Laravel, Vanilla Javascript
+        e Django | Data modeling `,
         date: "2019 - 2020",
         type: "work",
       },
       {
         title: "Majoring in Information Systems",
         description: "in Centro Universitário CESMAC",
-        date: "2018 - now",
+        date: "2018 - 2021",
         type: "education",
       },
       {
@@ -113,39 +140,67 @@ export const textInLanguege = {
 
     timeline: [
       {
-        title: "Desenvolvedor FullStack de Software Autônomo",
+        title: "Engenheiro de Software",
         description:
-          " NodeJS | Typescript | ReactJS | Laravel | Docker | React Native | NestJS | Gatsby",
+          ` Criação e manutenção de aplicaçães em: ReactJS, Next.JS e 
+          Ruby on Rails | Modelagem e uso de banco de dados relacional (PostgreSQL) |
+          Desenvolvimento com uso de containers | Ory Kratos - Gerenciamento de identidade e usuários |
+          Ory Hydra - Provedor OAuth 2.0 e OpenID | Ory Oathkeeper - Proxy Reverso `,
+        date: "2021 - atual",
+        type: "work",
+      },
+      {
+        title: "Pós Graduação em Engenharia de Software",
+        description: "no Faculdade Única",
+        date: "2021 - 2022",
+        type: "education",
+      },
+      {
+        title: "Engenheiro de Software",
+        description:
+          ` Criação e manutenção de aplicaçães em: NestJS e ReactJS |
+           Modelagem e uso de banco de dados relacional (PostgreSQL) | 
+           Desenvolvimento com uso de containers`,
+        date: "2020 - 2020",
+        type: "work",
+      },
+      {
+        title: "Engenheiro de Software",
+        description:
+          ` Criação e manutenção de aplicaçães em: NodeJS, Typescript, NestJS,
+           ReactJS, Next.JS e Gatsby | Modelagem e uso de banco de dados
+            relacional (PostgreSQL) | uso de banco de dados não relacional`,
         date: "2019 - atual",
         type: "work",
       },
       {
         title: "Desenvolvedor FullStack de Software",
         description:
-          " Laravel | Vanilla Javascript | Django | Modelagem de dados ",
+          ` Criação e manutenção de aplicaçães em: Laravel, Vanilla Javascript
+           e Django | Modelagem e uso de banco de dados PostgreSQL`,
         date: "2019 - 2020",
         type: "work",
       },
       {
         title: "Bacharel em Sistema de Informação",
         description: "no Centro Universitário CESMAC",
-        date: "2018 - atual",
+        date: "2018 - 2021",
         type: "education",
       },
       {
-        title: "Engenheiro Civil Autônomo",
+        title: "Engenheiro Civil",
         description: `Elaboração de projetos executivos de construção civil e 
         infraestrutura | Levantamento de quantitativos e orçamentos de serviços
-         | Acompanhamento da execução de obras | Análise(as built) e 
+         | Acompanhamento da execução de obras | Análise (as built) e 
          adequações de estruturas`,
         date: "2017 - atual",
         type: "work",
       },
       {
-        title: "Gerente de projetos | Engenheiro Civil",
+        title: "Gerente de projetos",
         description: `Elaboração de projetos executivos de construção civil | 
         Levantamento de quantitativos e orçamentos de serviços | Acompanhamento 
-        da execução de obras | Análise(as built) e adequações de estruturas | 
+        da execução de obras | Análise (as built) e adequações de estruturas | 
         Operação de plataformas de fiscalização e aquisição de recursos públicos`,
         date: "2017 - 2018",
         type: "work",
