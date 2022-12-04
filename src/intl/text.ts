@@ -9,7 +9,7 @@ export const textInLanguege = {
     presentation: "I'm Flávio",
     civilpresentation: `Moreover, I'm a civil engineer specializing in executive projects, 
     quantitative and budget characterization.`,
-    softwarepresentation: ` A Full-Stack software developer, 
+    softwarepresentation: ` A software engineer, 
     a fast learner and always excited for knowledge, quality and elegant solutions for any problem.`,
     description: `I was born and raised in Brazil, in a small city in Alagoas. 
     I’ve always been curious and excited for knowledge, taking advantage of 
@@ -124,7 +124,7 @@ export const textInLanguege = {
     presentation: "Eu sou Flávio",
     civilpresentation: `Além disso, sou engenheiro civil expecializado em projetos 
     executivos básicos, incluso caracterização de quantitativos com orçamento.`,
-    softwarepresentation: `Um desenvolvedor de softwares Full-Stack, com facilidade 
+    softwarepresentation: `Um engenheiro de software, com facilidade 
     em rápida aprendizagem e sempre animado por conhecimento, qualidade e soluções elegantes para qualquer problema.`,
     description: `Nascido em uma cidade no interior de Alagoas, sempre fui curioso por 
       novas descobertas, me dedicando em todas que vivenciei. A partir disso, 
